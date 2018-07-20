@@ -1,0 +1,1 @@
+INSERT INTO comment(commentId, commentDateTime, commentText) VALUES (UNHEX("fcda4d37925f435d991d794799169658"), "2018-07-20 08:33:35.047", "This database stuff is super slick!  It's getting easier and easier." );

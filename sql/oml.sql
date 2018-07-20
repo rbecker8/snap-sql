@@ -1,1 +1,2 @@
-INSERT INTO comment(commentId, commentDateTime, commentText) VALUES (UNHEX("fcda4d37925f435d991d794799169658"), "2018-07-20 08:33:35.047", "This database stuff is super slick!  It's getting easier and easier." );
+INSERT INTO comment(commentId, commentDateTime, commentText) VALUES (UNHEX("67739f2e11904f2b998e7204b28cda34"), "2018-07-20 10:33:37.033", "Week two is feeling great! I love programming!" );
+INSERT INTO comment(commentId, commentDateTime, commentText) VALUES (UNHEX("9d1b59f136254f09b7cbcd189b5895f2"), "2018-07-18 08:35:42.013", "This database stuff is super slick!  It's getting easier and easier");

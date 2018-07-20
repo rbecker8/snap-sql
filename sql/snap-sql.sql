@@ -6,10 +6,8 @@ DROP TABLE IF EXISTS comment;
 
 CREATE TABLE comment (
 		commentId BINARY (16) NOT NULL,
-		commentDateTime TIMESTAMP,
-		commentText VARCHAR (128),
-		-- unique index to avoid duplicate data
-		UNIQUE (commentId),
+		commentDateTime TIMESTAMP (6) NOT NULL ,
+		commentText VARCHAR (128) NOT NULL ,
 		-- officiates primary key for comment
 		PRIMARY KEY(commentId)
 );
